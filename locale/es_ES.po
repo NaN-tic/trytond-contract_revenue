@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:contract,cost:"
+msgid "Cost"
+msgstr "Coste"
+
+msgctxt "field:contract,currency_digits:"
+msgid "Currency Digits"
+msgstr "Decimals de la moneda"
+
+msgctxt "field:contract,revenue:"
+msgid "Revenue"
+msgstr "Ingresos"
+
+msgctxt "field:contract.line,cost:"
+msgid "Cost"
+msgstr "Coste"
+
+msgctxt "field:contract.line,currency_digits:"
+msgid "Currency Digits"
+msgstr "Decimals de la moneda"
+
+msgctxt "field:contract.line,revenue:"
+msgid "Revenue"
+msgstr "Ingresos"
