@@ -46,10 +46,10 @@ class ContractLine:
 
     revenue = fields.Function(fields.Numeric('Revenue',
             digits=(16, Eval('_parent_contract', {}).get('currency_digits', 2)),
-            depends=['currency_digits']), 'get_cost_and_revenue')
+            ), 'get_cost_and_revenue')
     cost = fields.Function(fields.Numeric('Cost',
             digits=(16, Eval('_parent_contract', {}).get('currency_digits', 2)),
-            depends=['currency_digits']), 'get_cost_and_revenue')
+            ), 'get_cost_and_revenue')
 
     @classmethod
     def get_cost_and_revenue(cls, lines, names):
